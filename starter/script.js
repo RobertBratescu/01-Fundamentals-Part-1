@@ -43,15 +43,7 @@
 
 // let markHigherBMI = bmiMark > bmiJohn;
 // console.log(bmiMark, bmiJohn, markHigherBMI);
-const firstName = "Robert";
-const myAge = 28;
-const myPosition = "Senior Marketing Specialist";
-const robertNew = `I'm ${firstName}, a ${myPosition}`;
 
-console.log(robertNew);
-console.log("String\n\
-with multiple\n\
-lines");
-console.log(`String
-with multiple
-lines`);
+const inputYear = "1991";
+console.log(`I was born
+in ${Number(inputYear) + 2}`);
