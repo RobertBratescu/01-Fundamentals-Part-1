@@ -44,6 +44,28 @@
 // let markHigherBMI = bmiMark > bmiJohn;
 // console.log(bmiMark, bmiJohn, markHigherBMI);
 
-const inputYear = "1991";
-console.log(`I was born
-in ${Number(inputYear) + 2}`);
+// const inputYear = "1991";
+// console.log(`I was born
+// in ${Number(inputYear) + 2}`);
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("Jonas"));
+// console.log(Boolean({}));
+
+// const money = 0;
+// if (money) {
+//   console.log("Don't spend it all!");
+// } else {
+//   console.log("You should get a job!");
+// }
+
+// console.log("23" == 23);
+// console.log("23" === 23);
+
+let age = Number(prompt("What is you age?"));
+if (age === 18) {
+  console.log(true);
+} else {
+  console.log(false);
+}
