@@ -63,9 +63,10 @@
 // console.log("23" == 23);
 // console.log("23" === 23);
 
-let age = Number(prompt("What is you age?"));
+console.log("hello motherfuckers what!");
+let age = 23; //Number(prompt("What is you age?"));
 if (age === 18) {
   console.log(true);
 } else {
-  console.log(false);
+  console.log("false");
 }
