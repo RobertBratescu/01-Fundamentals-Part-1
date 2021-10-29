@@ -97,40 +97,47 @@
 //   console.log("Maybe someone else should drive 😒...");
 // }
 
-let dolphins = (98 + 108 + 89) / 3;
-let koalas = (88 + 91 + 110) / 3;
+// let dolphins = (98 + 108 + 89) / 3;
+// let koalas = (88 + 91 + 110) / 3;
 
-console.log(dolphins, koalas);
-if (dolphins > koalas) {
-  console.log("Dolphins win!🐬");
-} else if (koalas > dolphins) {
-  console.log("Koalas win!🐨");
-} else {
-  console.log("Draw!📍");
-}
+// console.log(dolphins, koalas);
+// if (dolphins > koalas) {
+//   console.log("Dolphins win!🐬");
+// } else if (koalas > dolphins) {
+//   console.log("Koalas win!🐨");
+// } else {
+//   console.log("Draw!📍");
+// }
 
-dolphins = (97 + 112 + 101) / 3;
-koalas = (109 + 95 + 123) / 3;
+// dolphins = (97 + 112 + 101) / 3;
+// koalas = (109 + 95 + 123) / 3;
 
-console.log(dolphins, koalas);
-if (dolphins > koalas && dolphins > 100) {
-  console.log("Dolphins win!🐬");
-} else if (koalas > dolphins && koalas > 100) {
-  console.log("Koalas win!🐨");
-} else {
-  console.log("Draw!📍");
-}
+// console.log(dolphins, koalas);
+// if (dolphins > koalas && dolphins > 100) {
+//   console.log("Dolphins win!🐬");
+// } else if (koalas > dolphins && koalas > 100) {
+//   console.log("Koalas win!🐨");
+// } else {
+//   console.log("Draw!📍");
+// }
 
-dolphins = (97 + 112 + 101) / 3;
-koalas = (109 + 95 + 106) / 3;
+// dolphins = (97 + 112 + 101) / 3;
+// koalas = (109 + 95 + 106) / 3;
 
-console.log(dolphins, koalas);
-if (dolphins > koalas && dolphins >= 100) {
-  console.log("Dolphins win!🐬");
-} else if (koalas > dolphins && koalas >= 100) {
-  console.log("Koalas win!🐨");
-} else if (koalas === dolphins && koalas >= 100 && dolphins >= 100) {
-  console.log("Draw!📍");
-} else {
-  console.log("Nobody wins...😢");
-}
+// console.log(dolphins, koalas);
+// if (dolphins > koalas && dolphins >= 100) {
+//   console.log("Dolphins win!🐬");
+// } else if (koalas > dolphins && koalas >= 100) {
+//   console.log("Koalas win!🐨");
+// } else if (koalas === dolphins && koalas >= 100 && dolphins >= 100) {
+//   console.log("Draw!📍");
+// } else {
+//   console.log("Nobody wins...😢");
+// }
+
+const welcomeMessage = `
+Hi there!
+Is everything ok?
+♥ ♥ ♥ 
+`;
+console.log(welcomeMessage);
